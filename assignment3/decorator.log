@@ -1,0 +1,24 @@
+function: hello_world
+positional parameters: none
+keyword parameters: none
+return: None
+function: positional_function
+positional parameters: [1, 2, 3]
+keyword parameters: none
+return: True
+function: keyword_function
+positional parameters: none
+keyword parameters: {'name': 'Noor', 'course': 'Python'}
+return: <function logger_decorator at 0x100d54cc0>
+function: hello_world
+positional parameters: none
+keyword parameters: none
+return: None
+function: positional_function
+positional parameters: [1, 2, 3]
+keyword parameters: none
+return: True
+function: keyword_function
+positional parameters: none
+keyword parameters: {'name': 'Noor', 'course': 'Python'}
+return: <function logger_decorator at 0x10247ccc0>
