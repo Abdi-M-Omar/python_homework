@@ -8,7 +8,7 @@ keyword parameters: none
 return: True
 function: keyword_function
 positional parameters: none
-keyword parameters: {'name': 'Noor', 'course': 'Python'}
+keyword parameters: {'name': 'Abdi', 'course': 'Python'}
 return: <function logger_decorator at 0x100d54cc0>
 function: hello_world
 positional parameters: none

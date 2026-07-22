@@ -58,5 +58,5 @@ def keyword_function(**kwargs):
 # Call each decorated function.
 hello_world()
 positional_function(1, 2, 3)
-keyword_function(name="Noor", course="Python")
+keyword_function(name="Abdi", course="Python")
 
