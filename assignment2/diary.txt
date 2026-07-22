@@ -1,0 +1,3 @@
+I practiced python today
+i learned file handled
+done for now
