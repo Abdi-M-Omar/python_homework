@@ -178,34 +178,29 @@ print(clean_data)
 # ===========================
 # ===========================
 # Task 4.6 - Convert Hire Date
-# ===========================
+
+# Remove extra spaces from the Hire Date column.
+clean_data["Hire Date"] = clean_data["Hire Date"].str.strip()
 
 # Convert the Hire Date column to datetime.
 clean_data["Hire Date"] = pd.to_datetime(
     clean_data["Hire Date"],
-    errors="coerce"
-)
-
-# Fill any missing dates with a valid date.
-clean_data["Hire Date"] = clean_data["Hire Date"].fillna(
-    pd.Timestamp("2000-01-01")
+    format="mixed"
 )
 
 print(clean_data)
 
 
 # ===========================
+# ===========================
 # Task 4.7 - Clean Text Columns
 # ===========================
 
-# Remove extra spaces from Name and convert it to uppercase.
-clean_data["Name"] = (
-    clean_data["Name"]
-    .str.strip()
-    .str.upper()
-)
+# Remove extra spaces from the Name column.
+clean_data["Name"] = clean_data["Name"].str.strip()
 
-# Remove extra spaces from Department and convert it to uppercase.
+# Remove extra spaces from Department
+# and convert it to uppercase.
 clean_data["Department"] = (
     clean_data["Department"]
     .str.strip()
