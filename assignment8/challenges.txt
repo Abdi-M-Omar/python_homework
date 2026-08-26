@@ -1,0 +1,7 @@
+Challenges
+
+One challenge I faced was identifying the correct HTML elements that contained the OWASP Top 10 vulnerabilities. I used the browser developer tools to inspect the page and determine how the vulnerability links were structured.
+
+Another challenge was creating an XPath expression that returned the correct links without including unrelated elements. I resolved this by using an XPath that searched for the 2025 vulnerability links and then verified that exactly 10 results were returned.
+
+After extracting the data, I stored each vulnerability title and link in a dictionary, added the dictionaries to a list, converted the list into a Pandas DataFrame, and saved the results to a CSV file.
