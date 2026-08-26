@@ -2,12 +2,12 @@ Task 5: Ethical Web Scraping
 
 1. Which sections of the website are restricted for crawling?
 
-Wikipedia restricts crawlers from several sections of the website. Some of the main restricted areas include /w/, /api/, /trap/, and /wiki/Special:. There are also restrictions on certain administrative, deletion, discussion, and other dynamically generated pages.
+Wikipedia restricts crawlers from several parts of the website. Examples include areas such as /w/, /api/, /trap/, and certain Special pages. Some administrative, dynamically generated, deletion-related, and other restricted pages are also listed in robots.txt.
 
 2. Are there specific rules for certain user agents?
 
-Yes. Wikipedia has specific rules for certain user agents. Some bots are completely blocked from crawling the website. Other bots have special rules. For example, SemrushBot has a crawl delay of 5 seconds, while some Wikipedia work bots are allowed to crawl.
+Yes. Wikipedia's robots.txt contains different rules for different user agents. Some named crawlers are completely blocked from crawling certain areas or the entire site, while other user agents have their own restrictions or crawl-delay rules. Crawlers should identify themselves correctly and follow the rules that apply specifically to their user-agent name.
 
 3. Why do websites use robots.txt, and how does it promote ethical scraping?
 
-Websites use robots.txt to tell web crawlers which areas of a website they are allowed or not allowed to access. Following these rules promotes ethical web scraping by respecting the website owner's crawling preferences and helping prevent excessive requests that could place unnecessary load on the website's servers.
+Websites use robots.txt to communicate which parts of the site automated crawlers should or should not access. Following these rules promotes ethical web scraping by respecting the website owner's preferences and reducing unnecessary requests that could place extra load on the site's servers.
